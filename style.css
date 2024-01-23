@@ -8,11 +8,16 @@ body {
     top: 0;
     left: 0;
     padding: 8px;
-    width: 300px;
+    width: 310px;
 }
 
+.sidebar__navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
 
-.inicio {
+.sidebar__inicio {
     background-color: #121212;
     display: flex;
     flex-direction: column;
@@ -21,25 +26,25 @@ body {
     border-radius: 8px;
 }
 
-.inicio ul{
+.sidebar__inicio ul{
     padding-bottom: 20px;
 }
 
-.inicio ul li {
-    padding: 10px 0;
+.sidebar__inicio ul li {
+    padding: 12px 0;
 }
 
-.inicio ul li a{
+.sidebar__inicio ul li a{
     text-decoration: none;
     color: #b3b3b3;
     font-weight: 600;
 }
 
-.inicio ul li a i{
+.sidebar__inicio ul li a i{
     font-size: 18px; 
 }
 
-.inicio ul li a span {
+.sidebar__inicio ul li a span {
     font-size: 16px;
     margin-left: 15px;
 }
@@ -47,3 +52,144 @@ body {
 .logo img {
     width: 80px;
 }
+
+.sidebar__biblioteca {
+    background-color: #121212;
+    padding: 16px 0 0 24px;
+    border-radius: 8px;
+}
+
+.sidebar__biblioteca__logo {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+}
+.sidebar__biblioteca__logo a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sidebar__biblioteca__logo a i {
+    font-size: 18px;
+}
+
+.sidebar__biblioteca__logo a span {
+    margin-left: 8px
+}
+
+.sidebar__biblioteca__logo .fa-plus {
+    color: #b3b3b3;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* .section-playlist {
+    height: 80px;
+    overflow-y: hidden;
+} */
+/* .section-playlist:hover {
+    overflow-y: scroll;
+
+} */
+
+.section-playlist__content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #242424;
+    color: #f4f4f4;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 24px 12px 0px -12px;
+}
+
+.section-playlist__content .title {
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-playlist__button {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    border-radius: 9999px;
+    border: 1px solid transparent;
+    background-color: white;
+    padding: 6px 10px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.sidebar__biblioteca__links {
+    font-size: 11px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    padding: 32px 32px 24px 0;
+    /* padding-right: 24px;
+    padding-top: 24px; */
+}
+
+.sidebar__biblioteca__links a {
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.sidebar__biblioteca__links .privacidade {
+    display: flex;
+    gap: 3px;
+}
+
+.sidebar__biblioteca__links .privacidade span{
+    border: 1px solid red;
+    width: 5px;
+}
+
+.sidebar__biblioteca__language {
+    padding-bottom: 24px;
+}
+
+.sidebar__biblioteca__language button {
+    border-radius: 9999px;
+    border: 1px #878787 solid;
+    background-color: transparent;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 5px 14px;
+    cursor: pointer;
+    transition: width 0.3 ease-in-out;
+}
+
+/* .sidebar__biblioteca .language button:hover {
+    box-shadow: 5px 5px 5px black; 
+} */
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
