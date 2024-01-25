@@ -1,0 +1,92 @@
+.main-container {
+    /* width: 80vw; */
+    padding: 8px 8px 8px 0px;
+    /* border: 1px red solid; */
+} 
+
+.header__navigation {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: #121212;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.header__navigation .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__navigation .navigation .navigation__buttons {
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.header__navigation .navigation .navigation__buttons button {
+    /* border: 1px pink solid; */
+    border: 0;
+    border-radius: 20px;
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 4px;
+}
+
+.header__navigation .navigation button img{
+    display: flex;
+    cursor: pointer;
+}
+
+.header__navigation .navigation .header__search{
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 500px;
+    background-color: #242424;
+}
+
+.header__navigation .navigation .header__search img {
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.header__navigation .navigation .header__search #search-input{
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    color: #FFF;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px 100px 12px 12px;
+} 
+
+.header__navigation .navigation .header__login {
+    display: flex;
+    gap: 24px;
+    margin-right: 10px;
+}
+
+.header__navigation .navigation .header__login .subscribe {
+    border: 0;
+    background-color: transparent;
+    color: var(--font-color);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header__navigation .navigation .header__login .login {
+    border: 0;
+    border-radius: 9999px;
+    background-color: var(--light-font-color);
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px 32px;
+    cursor: pointer;
+}
