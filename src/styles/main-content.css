@@ -2,6 +2,7 @@
     /* width: 80vw; */
     padding: 8px 8px 8px 0px;
     /* border: 1px red solid; */
+    /* margin-left: 326px; */
 } 
 
 .header__navigation {
@@ -10,7 +11,8 @@
     align-items: center; */
     background-color: #121212;
     padding: 8px;
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .header__navigation .navigation {
@@ -89,4 +91,22 @@
     font-weight: 700;
     padding: 16px 32px;
     cursor: pointer;
+}
+
+.main__section {
+    background: linear-gradient(to bottom, #1F1F1F, #121212);
+    padding: 10px 20px;
+    max-height: 73.22vh;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    overflow-y: auto;
+
+}
+
+.main__section .main__header {
+    display: flex;
+    justify-content: space-between;
 }
