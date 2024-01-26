@@ -80,15 +80,6 @@
     font-size: 16px;
 }
 
-/* .section-playlist {
-    height: 80px;
-    overflow-y: hidden;
-} */
-/* .section-playlist:hover {
-    overflow-y: scroll;
-
-} */
-
 .section-playlist__content {
     display: flex;
     flex-direction: column;
@@ -121,6 +112,10 @@
     color: black;
     cursor: pointer;
     font-size: 12px;
+}
+
+.section-playlist__button:hover {
+    transform: scale(1.04);
 }
 
 .sidebar__biblioteca__links {
@@ -161,12 +156,11 @@
     font-size: 14px;
     padding: 5px 14px;
     cursor: pointer;
-    transition: width 0.3 ease-in-out;
 }
 
-/* .sidebar__biblioteca .language button:hover {
-    box-shadow: 5px 5px 5px black; 
-} */
+.sidebar__biblioteca__language button:hover {
+    transform: scale(1.04);
+}
 
 p {
     color: red;
@@ -220,6 +214,10 @@ footer a button {
     margin-right: 6px;
     margin-bottom: -2px;
     cursor: pointer;
+}
+
+footer a button:hover {
+    transform: scale(1.04);
 }
 
 
