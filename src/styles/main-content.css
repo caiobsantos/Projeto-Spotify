@@ -136,13 +136,19 @@
     margin-top: 24px;
     width: 220px;
     height: 200px;
-    background-color: #282828;
+    background-color: #121212;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /* gap: 30px; */
     overflow: hidden;
+    transition: background-color 150ms;
+}
+
+.main__section .main__cards .card:hover{
+    cursor: pointer;
+    background-color: #282828;
 }
 
 .main__section .main__cards .card span{
@@ -168,7 +174,6 @@
     margin-top: 24px;
     width: 220px;
     height: 200px;
-    background-color: #282828;
     border-radius: 8px;
     display: flex;
     flex-direction: column-reverse;
@@ -220,9 +225,17 @@
 }
 
 .main__section .main__links .util-links .links .links__subtitle {
+    width: fit-content;
     color: var(--font-color);
     font-size: .95rem;
     font-weight: 500;
+}
+
+.main__section .main__links .util-links .links .links__subtitle:hover {
+    color: white;
+    cursor: pointer;
+    border-bottom: 1px white solid;
+    margin-bottom: -1px;
 }
 
 .main__section .main__links .social-media {
@@ -239,6 +252,11 @@
     color: white;
     /* background-color: red; */
     font-size: 18px;
+}
+
+.main__section .main__links .social-media i:hover{
+    cursor: pointer;
+    background-color: #b3b3b3;
 }
 
 hr {
