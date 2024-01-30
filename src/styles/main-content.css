@@ -167,10 +167,6 @@
     transform: rotate(25deg) translate(18%, -2%);
 }
 
-.main__section .main__cards .card-2{
-    background-color: purple;
-}
-
 .main__section .main__cards .card-4{
     margin-top: 24px;
     width: 220px;
